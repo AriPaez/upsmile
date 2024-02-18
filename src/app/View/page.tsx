@@ -44,7 +44,7 @@ function Login() {
           <p className="bg-red-500 text-white p-3 rounded-lg mb-4 text-center">{error}</p>
         )}
   
-        <h1 className="text-gray-800 font-bold text-3xl mb-6 text-center">Login</h1>
+        <h1 className="text-gray-800 font-bold text-3xl mb-6 text-center">UPSMILE</h1>
   
         <div className="mb-4">
           <label htmlFor="username" className="text-gray-600 text-sm">Username</label>
