@@ -2,7 +2,7 @@ version: '3'
 
 services:
   postgres:
-    image: postgres:latest
+    image: postgres:alpine3.19
     container_name: postgres
     environment:
       POSTGRES_PASSWORD: apaez
@@ -14,7 +14,7 @@ services:
       - "5432:5432"  
 
   redis:
-    image: redis:latest
+    image: redis:alpine3.19
     container_name: redis
     volumes:
       - redis_data:/data
